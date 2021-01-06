@@ -1,6 +1,6 @@
 /*Ellipsis on the section text*/
 .dhx_matrix_scell {
-    white-space: nowrap ;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 13px;
