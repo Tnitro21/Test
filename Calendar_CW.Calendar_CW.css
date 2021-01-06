@@ -1,27 +1,51 @@
-﻿/* ===================================================================== */
-/*  The following CSS was created using Theme Editor.                    */
-/*  To modify this CSS, click "Open Theme Editor".                       */
-/* ===================================================================== */
-
-/* ===================================================================== */
-/*  Root - CSS Variables                                                 */
-/* ===================================================================== */
-
-:root {
-	
-    /* Color - Brand */
-    --color-primary: #59abe3;
-    --color-secondary: #59abe3;
-
-    --color-primary-hover: #4380aa;
-    --color-primary-selected: rgba(89, 171, 227, .12);
-	
-    /* Dark Theme */
-    --background-dark-theme: rgba(255, 255, 255, .1);
-    --background-dark-theme-hover: rgba(255, 255, 255, .2);
-}
-
-
+﻿/* ===================================================================== */
+
+/*  The following CSS was created using Theme Editor.                    */
+
+/*  To modify this CSS, click "Open Theme Editor".                       */
+
+/* ===================================================================== */
+
+
+
+/* ===================================================================== */
+
+/*  Root - CSS Variables                                                 */
+
+/* ===================================================================== */
+
+
+
+:root {
+
+	
+
+    /* Color - Brand */
+
+    --color-primary: #59abe3;
+
+    --color-secondary: #59abe3;
+
+
+
+    --color-primary-hover: #4380aa;
+
+    --color-primary-selected: rgba(89, 171, 227, .12);
+
+	
+
+    /* Dark Theme */
+
+    --background-dark-theme: rgba(255, 255, 255, .1);
+
+    --background-dark-theme-hover: rgba(255, 255, 255, .2);
+
+}
+
+
+
+
+
 /*
 
 @license
@@ -3336,3 +3360,46 @@ div.dhx_menu_icon {
     top: 8px!important
 }
 
+/*CUSTOMIZATION*/
+/* enabling marked timespans for month view */
+.dhx_scheduler_month .dhx_marked_timespan {
+    display: block !important;
+}
+
+/* style to display special dates, e.g. holidays */
+.bank_holiday {
+    background-color: #fadcd3;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.8;
+    color: #e2b8ac;
+}
+
+/* style to display special dates, e.g. weekends */
+.weekend {
+    background-color: #BDBDBD;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.8;
+    color: #222;
+}
+
+/*To put this div before the date*/
+.dhx_cal_navline .dhx_cal_prev_button {
+    left: 35% !important;
+}
+
+/*To put this div after the date*/
+.dhx_cal_navline .dhx_cal_next_button {
+    right: 35% !important;
+}
+
+/*Ellipsis on the section text*/
+.dhx_matrix_scell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+}
