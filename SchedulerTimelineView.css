@@ -9,3 +9,7 @@
     font-weight: bold;
     padding: 10px;
 }
+
+.dhx_marked_timespan {
+    background-color: #fadcd3 !important;
+}
